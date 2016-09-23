@@ -33,7 +33,7 @@ class UploadImageCommandHandler
         $destinationPath = public_path().'/'.$folderName;
         mkdir($destinationPath,755,true);
         // Create Randomstring for Filename
-        $random_string = str_random(10);
+        $random_string = md5(microtime(1));
         //Path to Thread Size
         $safeName = $random_string.'.'.$extension;
         //Path to Original Size
