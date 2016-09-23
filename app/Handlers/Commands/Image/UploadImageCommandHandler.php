@@ -31,6 +31,7 @@ class UploadImageCommandHandler
         $extension = $file->getClientOriginalExtension() ?: 'png';
         $folderName = '/uploads/images/'.date('Ym', time()).'/'.date('d', time()).'/'.Auth::user()->id;
         $destinationPath = public_path().'/'.$folderName;
+        mkdir($destinationPath,644,true);
         // Create Randomstring for Filename
         $random_string = str_random(10);
         //Path to Thread Size
