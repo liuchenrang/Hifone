@@ -116,7 +116,7 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'daily'),
+    'log' => env('APP_LOG', 'single'),
 
     /*
     |--------------------------------------------------------------------------
@@ -168,7 +168,6 @@ return [
         GrahamCampbell\Exceptions\ExceptionsServiceProvider::class,
         Jenssegers\Date\DateServiceProvider::class,
         Roumen\Feed\FeedServiceProvider::class,
-        Frozennode\Administrator\AdministratorServiceProvider::class,
         Cmgmyr\Messenger\MessengerServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Watson\Sitemap\SitemapServiceProvider::class,
@@ -176,7 +175,10 @@ return [
         /*
          * Application Service Providers...
          */
+        Frozennode\Administrator\AdministratorServiceProvider::class,
+//
         Hifone\StringBlade\StringBladeCompilerServiceProvider::class,
+
         Hifone\Providers\AppServiceProvider::class,
         Hifone\Providers\AuthServiceProvider::class,
         Hifone\Providers\ComposerServiceProvider::class,

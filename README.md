@@ -1,5 +1,8 @@
 ## Hifone
 
+   "Frozennode\\Administrator\\": "hifone/dashboard/src/",
+   
+
 [![StyleCI](https://styleci.io/repos/60775510/shield)](https://styleci.io/repos/60775510/)
 [![Build Status](https://img.shields.io/travis/Hifone/Hifone/master.svg?style=flat-square)](https://travis-ci.org/Hifone/Hifone)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
