@@ -53,7 +53,7 @@
         ],
         "psr-4": {
             "Hifone\\": "app/",
-            "Frozennode\\Administrator\\":"hifone/dashboard/src/"
+            "Frozennode\\Administrator\\":"dashboard/src/"
         }
     },
     "autoload-dev": {
@@ -62,21 +62,8 @@
         }
     },
     "scripts": {
-        "post-root-package-install": [
-            "php -r \"copy('.env.example', '.env');\"",
-            "php artisan key:generate"
-        ],
-        "post-create-project-cmd": [
-            "php artisan key:generate"
-        ],
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php artisan optimize --force",
-            "php artisan config:cache",
-            "php artisan route:cache"
-        ],
-        "post-update-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize --force",
             "php artisan config:cache",
             "php artisan route:cache"

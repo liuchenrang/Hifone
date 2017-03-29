@@ -175,7 +175,7 @@ return [
         /*
          * Application Service Providers...
          */
-        Frozennode\Administrator\AdministratorServiceProvider::class,
+//        Frozennode\Administrator\AdministratorServiceProvider::class,
 //
         Hifone\StringBlade\StringBladeCompilerServiceProvider::class,
 

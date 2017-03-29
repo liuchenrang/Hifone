@@ -57,7 +57,7 @@ return array(
     'Gregwar\\Captcha\\' => array($vendorDir . '/gregwar/captcha'),
     'GrahamCampbell\\Exceptions\\' => array($vendorDir . '/graham-campbell/exceptions/src'),
     'GitaminHQ\\BenchTest\\' => array($vendorDir . '/gitaminhq/benchtest/src'),
-    'Frozennode\\Administrator\\' => array($baseDir . '/hifone/dashboard/src'),
+    'Frozennode\\Administrator\\' => array($baseDir . '/dashboard/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),

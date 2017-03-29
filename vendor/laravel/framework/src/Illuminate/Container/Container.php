@@ -176,6 +176,7 @@ class Container implements ArrayAccess, ContainerContract
      */
     public function bind($abstract, $concrete = null, $shared = false)
     {
+
         $abstract = $this->normalize($abstract);
 
         $concrete = $this->normalize($concrete);
