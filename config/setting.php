@@ -20,4 +20,5 @@ return [
     */
 
     'dashboard_login_link' => true,
+    'site_cdn' => '//'
 ];

@@ -175,9 +175,7 @@ return [
         /*
          * Application Service Providers...
          */
-//        Frozennode\Administrator\AdministratorServiceProvider::class,
-//
-        Hifone\StringBlade\StringBladeCompilerServiceProvider::class,
+
 
         Hifone\Providers\AppServiceProvider::class,
         Hifone\Providers\AuthServiceProvider::class,
@@ -189,6 +187,11 @@ return [
         Hifone\Providers\ParserServiceProvider::class,
         Hifone\Providers\RepositoryServiceProvider::class,
         Hifone\Providers\RouteServiceProvider::class,
+
+
+        Frozennode\Administrator\AdministratorServiceProvider::class,
+//
+        Hifone\StringBlade\StringBladeCompilerServiceProvider::class,
     ],
 
     /*
